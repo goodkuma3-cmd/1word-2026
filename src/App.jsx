@@ -314,7 +314,7 @@ const pickTemplateByKeyword = (keyword) => {
         ctx.beginPath();
         ctx.globalAlpha =
           (BASE_ALPHA_MIN + Math.random() * BASE_ALPHA_RAND) * (isBright ? 1 : 0.55);
-        ctx.fillStyle = isBright ? "#fff" : "#a1a1aa";
+        ctx.fillStyle = isBright ? "#fff" : "#52525b";
         ctx.arc(x, y, DOT_RADIUS, 0, Math.PI * 2);
         ctx.fill();
       }
